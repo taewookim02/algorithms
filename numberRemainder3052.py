@@ -15,12 +15,14 @@ myList = [A, B, C, D, E, F, G, H, I, J]
 
 compareList = []
 for i in myList:
-    if i not in compareList:
-        compareList.append(i%X)
-    else:
-        continue
-print(compareList)
-print(len(compareList))
+    compareList.append(i%X)
 
 
-# https://www.acmicpc.net/problem/3052
+# for i in myList:
+#     if i in compareList:
+#         continue
+#     else:
+#         compareList.append(i%X)
+lastList = set(compareList)
+
+print(len(lastList))
