@@ -26,8 +26,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-/past
 
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+# Customizing
+/past
+.prettierrc
