@@ -11,16 +11,21 @@ const input = fs
 const [a, b, c] = input;
 
 if (a === b || a === c || b === c) {
-  // 3 identical /
-  if (a === b && a === c && b === c) return console.log(a * 1000 + 10000);
-  // 2 identical
-  if (a === b || a === c) return console.log(a * 100 + 1000);
-  if (b === c) return console.log(b * 100 + 1000);
-  // no identical
-} else if (a !== b && a !== c && b !== c) {
+  // 3 identical
+  if (a === b && a === c && b === c) {
+    console.log(a * 1000 + 10000);
+    // 2 identical
+  } else if (a === b || a === c) {
+    console.log(a * 100 + 1000);
+  } else if (b === c) {
+    console.log(b * 100 + 1000);
+    // no identical pairs
+  }
+}
+if (a !== b && a !== c && b !== c) {
   let high = 0;
   for (let i of [a, b, c]) {
     i > high ? (high = i) : '';
   }
-  return console.log(high * 100);
+  console.log(high * 100);
 }
