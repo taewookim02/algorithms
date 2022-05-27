@@ -7,5 +7,3 @@ baekjoon, leetcode
   <img src="http://mazandi.herokuapp.com/api?handle=taewookim02&theme=warm"/>
   <img src="http://mazassumnida.wtf/api/generate_badge?boj=taewookim02"/>
 </div>
-
-
