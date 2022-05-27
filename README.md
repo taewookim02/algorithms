@@ -2,7 +2,7 @@
 
 baekjoon, leetcode
 
-Let's study algorithms!
+Let's study algorithms! :D
 With the help of Baekjoon and Leetcode!
 
 <div style="display: flex; justify-content: space-between; width: 100%;;">
