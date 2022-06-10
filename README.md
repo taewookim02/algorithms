@@ -1,6 +1,6 @@
-# Data-Structures and Algorithms
+# Data Structures and Algorithms
 
-*baekjoon, leetcode, udemy courses*
+*baekjoon, leetcode, and udemy courses*
 
 Let's study algorithms! :D
 
