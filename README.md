@@ -1,12 +1,12 @@
-# algorithms
+# Data-Structures and Algorithms
 
-baekjoon, leetcode
+*baekjoon, leetcode, udemy courses*
 
 Let's study algorithms! :D
-With the help of Baekjoon and Leetcode!
 
-<div style="display: flex; justify-content: space-between; width: 100%;;">
-<!--   <div>[![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=taewookim02)](https://solved.ac/taewookim02)</div> -->
+
+<!-- Figure out how to use styles properly on markdown language -->
+<div style="display: flex; width: 100%; justify-content: space-between;">
   <img src="http://mazandi.herokuapp.com/api?handle=taewookim02&theme=warm"/>
   <img src="http://mazassumnida.wtf/api/generate_badge?boj=taewookim02"/>
 </div>
