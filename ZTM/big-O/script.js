@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 ///////////////////////////////////////////////////
 // O(n)
 
@@ -20,14 +20,15 @@ const large = new Array(100000).fill('nemo');
 
 const findNemo = function (array) {
   for (let i = 0; i < array.length; i++) {
+    console.log('running');
     if (array[i] === 'nemo') {
       console.log('Found NEMO!!');
+      break;
     }
   }
 };
 
-findNemo(large); // O(n) --> Linear Time
-*/
+findNemo(everyone); // O(n) --> Linear Time
 
 ///////////////////////////////////////////////////
 // O(1)
@@ -40,3 +41,8 @@ function logFirstTwoBoxes(boxes) {
 }
 
 logFirstTwoBoxes(boxes); // O(2) --> Constant Time
+
+///////////////////////////////////////////////////
+// Rule 1: Worst Case
+// Even if the input was positioned in a way that the algo is O(1), it should consider
+// that the input was in the worst case possible position.

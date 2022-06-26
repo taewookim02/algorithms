@@ -18,7 +18,6 @@ function funChallenge(input) {
 }
 
 BIG O(3 + 4n)
-*/
 
 ///////////////////////////////////////////////////
 // Challenge 2: Big O
@@ -43,3 +42,4 @@ function anotherFunChallenge(input) {
 }
 
 // BIG O(4 + 7n)
+*/
