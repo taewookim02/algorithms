@@ -27,5 +27,7 @@ Rule 4: Drop Non-dominant terms
 
 ## -What causes Space complexity?-
 
-Variables
-Data Structures Function Call Allocations
+Variables<br>
+Data Structures<br>
+Function Call<br>
+Allocations

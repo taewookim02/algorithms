@@ -35,7 +35,7 @@ From Andrei Neagoie's Master The Coding Interview: Data Structures + Algorithms
 
 ## Good code checklist:
 
-    [✅]It works
+      [✅]It works
     [✅]Good use of data structures
     [✅]Code Re-use/ Do Not Repeat Yourself
     [✅]Modular - makes code more readable, maintainable and testable
