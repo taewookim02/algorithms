@@ -35,3 +35,6 @@ var containsDuplicate = function (nums) {
 
   return false;
 };
+
+// T = O(N)
+// S = O(N)
